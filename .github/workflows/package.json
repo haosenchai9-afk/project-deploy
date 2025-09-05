@@ -1,0 +1,12 @@
+{
+  "name": "project-deploy",
+  "version": "1.2.3",  // 工作流会读取此版本号到回滚计划
+  "scripts": {
+    "install": "npm install",
+    "build": "echo 'Building project...'",
+    "start": "echo 'Starting project...'"
+  },
+  "dependencies": {
+    "jq": "^1.7.1"  // 工作流中用于解析JSON的工具
+  }
+}
