@@ -1,0 +1,5 @@
+# .env.actions（本地文件，需添加到.gitignore，避免泄露）
+# 1. GitHub个人访问令牌（PAT）：需具备repo和actions权限
+GITHUB_ACTIONS_TOKEN=ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# 2. 目标仓库所在的组织/用户名（如仓库地址是https://github.com/my-org/project-deploy，则填my-org）
+GITHUB_ORG=my-org
